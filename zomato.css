@@ -1,0 +1,450 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    min-width: 900px;
+}
+header{
+    
+    padding: 10px;
+    background-image: url(./images/zomato1.avif);
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+    /* background-size: 100%; */
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;  
+    object-fit: cover; 
+}
+.l1 {
+    margin: 20px;
+    /* margin-left: 150px; */
+    font-weight: 800;
+    font-size: larger;
+    /* align-content: flex-start; */
+}
+
+.links{
+    display: flex;
+    /* width: 100%; */
+}
+#a1{
+    text-decoration: none;
+    color: white;
+}
+
+.l3{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-size:20px;
+}
+
+.maintext {
+    color: white;
+    text-align: center;
+}
+#zom{
+    margin-top: 10px;
+    font-size: 8rem;
+}
+#disc{
+    margin-top: 10px;
+    font-family: serif;
+    font-size: 3rem;
+    font-weight: 200;
+}
+
+.searchbox {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    object-fit: cover;
+    
+}
+input{
+    width: 600px;
+    height: 55px;
+    border-radius: 0px 10px 10px 0px;
+}
+select{
+    width: 200px;
+    height: 55px;
+    border-radius:  10px  0px 0px 10px;
+}
+.section1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: 15%;
+    border-radius: 10px;
+    
+}.section1  :hover{
+    scale: 1.02;
+    
+     
+ }
+.card1 {
+    background-color: rgb(250, 250, 246);
+}
+.card2{
+    background-color: rgb(250, 250, 246);;
+    margin-left: 5%;
+ 
+}
+
+#sec1img{
+    border-radius: 20px;
+    width: 500px;
+    height: 200px;
+}
+
+/* #a2 :hover{
+    scale: 1.2;
+   
+} */
+
+.section2{
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 400px;
+}
+.section2 a{
+    font-size: 20px;
+
+   
+}
+
+.cards{
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    
+}
+#s2a{
+    margin-left: 5em;
+    text-decoration: none;
+    color: rgb(243, 107, 107);
+
+}
+
+.s2c1{
+    position: relative;
+    background: url(./images/zomato3.avif);
+    width: 20%;
+    height: 300px;
+    border-radius: 10px;
+
+}
+
+.s2c1 a{
+
+    text-decoration: none;
+    position:absolute;
+    bottom: 0px;
+    color: rgb(221, 230, 223);
+}
+
+
+.s2c2{
+    position: relative;
+    background: url(./images/z8.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 20%;
+    height: 300px;
+    margin-left: 20px;
+}
+
+.s2c2 a{
+
+    text-decoration: none;
+    position:absolute;
+    bottom: 0px;
+    color: rgb(221, 230, 223);
+}
+
+
+.s2c3{
+    position: relative;
+    background: url(./images/z6.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 20%;
+    height: 300px;
+    margin-left: 20px;
+}
+.s2c3 a{
+
+    text-decoration: none;
+    position:absolute;
+    bottom: 0px;
+    color: rgb(221, 230, 223);
+}
+
+.s2c4{
+    position: relative;
+    background: url(./images/z7.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    width: 20%;
+    height: 300px;
+    margin-left: 20px;
+}
+.s2c4 a{
+
+    text-decoration: none;
+    position:absolute;
+    bottom: 0px;
+    color: rgb(221, 230, 223);
+}
+
+
+
+
+
+
+
+
+#s2h3{
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-size: larger;
+}
+
+
+
+.section3{
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 400px;
+    object-fit: cover;
+    min-height: 400px;
+}
+
+.row1{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+}
+.r1c1 a{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.r1c1 {
+    width: 20%;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 1px 1px 5px rgb(226, 218, 218);
+    border-radius: 10%;
+    
+
+}
+
+
+.r1c2 a{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.r1c2 {
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(226, 218, 218);
+    border-radius: 10%;
+    margin-left: 150px;
+
+}
+
+.r1c3 a{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: larger;
+}
+
+.r1c3 {
+    width: 20%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgb(226, 218, 218);
+    border-radius: 10%;
+    margin-left: 150px;
+
+}
+
+
+
+.section4{
+
+    display: flex;
+    height: 500px;
+    background-color:  rgb(250, 248, 248);
+    min-height: 500px;
+    justify-content: center;
+}
+
+.playstore{
+    display: flex;
+}
+.playstore img{
+    margin-top: 70px;
+    width: 150px;
+}
+#applest{
+    margin-left: 40px;
+}
+
+#im{
+    /* position: absolute;
+    left: 10%; */
+    width: 313px;
+    height: 296px;
+    background-repeat: no-repeat;
+    background-size: 45% 70%;
+    margin-top: 112px;
+    
+}
+#get{
+    margin-top: 90px;
+    margin-left: 10%;
+    width: 20%;
+    text-align: center;
+    
+    
+    
+}
+#get h1 h3{
+    padding: 50px;
+    
+}
+
+#email{
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+.share{
+    display: flex;
+    gap: 10px;
+   
+}
+
+
+
+
+.section5{
+    margin-top: 10%;
+    margin-left: 15%;
+    height: 400px;
+}
+.collapsible {
+    background-color: rgb(250, 248, 248);
+    color: rgb(47, 12, 12);
+    cursor: pointer;
+    padding: 18px;
+    width:80%;
+    height: 100px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+#d1{
+    margin-top:20px;
+}
+#d2{
+    margin-top: 20px;
+}
+
+#d3{
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 10%;
+    /* margin-left: 15%; */
+    height: 500px;
+    background-color: rgb(249, 249, 249);
+}
+.f1{
+    display: flex;
+    margin-left: 15%;
+    /* margin-top: 15%; */
+    padding-top: 10%;
+    font-size: 1.5rem;
+}
+.f1 #india{
+    margin-left: 50%;
+    border-radius: 10px;
+}
+.f1 #lang{
+    margin-left: 5%;
+    border-radius: 10px;
+}
+
+
+
+.f2{
+    display: flex;
+}
+.f3{
+    margin-left: 15%;
+    padding-top: 5%;
+}
+.f3 a{
+    text-decoration: none;
+}
+
+.f4{
+    margin-left: 15%;
+    padding-top: 5%;
+}
+.f4 a{
+    text-decoration: none;
+}
+
+
+.f5{
+    margin-left: 15%;
+    padding-top: 5%;
+}
+.f5 a{
+    text-decoration: none;
+}
+footer a{
+    color: black;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/* .sociallinks{
+
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.sociallinks img{
+    margin-top: 120px;
+    width: 20px;
+} */
